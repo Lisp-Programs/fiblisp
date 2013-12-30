@@ -11,4 +11,4 @@ implementation of the fibonacci sequence with double recursion
 
 implementation of the fibonacci sequence calculation with the golden ratio forumula:
 
-Nx = ( (phi)^x - (1- phi)^X ) / sqrt(5)
+Nx = ( (phi)^x - (1- phi)^x ) / sqrt(5)
