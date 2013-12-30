@@ -1,13 +1,13 @@
 fiblisp
 =======
 
-fib_recursion.lisp
+##  fib_recursion.lisp
 
 implementation of the fibonacci sequence with double recursion
 
 
 
-fib_golden.lisp
+## fib_golden.lisp
 
 implementation of the fibonacci sequence calculation with the golden ratio forumula:
 
