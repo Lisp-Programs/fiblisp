@@ -10,7 +10,7 @@
   (if (numberp n)
       (if (integerp n)
 	  (if (>= n 0)
-	      (round (/ (- (expt phi n) (expt (- 1 phi) n) ) (sqrt 5)))
+	      (floor (/ (- (expt phi n) (expt (- 1 phi) n) ) (sqrt 5)))
 	      (error "Argument Is Negative !!!"))
 	  (error "Argument Is Not An Integer !!!"))
       (error "Argument Is Not A Number")))
