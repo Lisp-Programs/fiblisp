@@ -2,9 +2,9 @@
 ;; calculation with the golden ratio formula:
 ;; Nx = ( (phi)^x - (1 - phi)^x ) / sqrt(5)
 ;; where phi, the golden ratio, is:
-;; phi = 1.61834...
+;; phi = 1.6180339887...
 
-(defparameter phi 1.61834)
+(defparameter phi 1.6180339887)
 
 (defun fib_gold (n)
   (if (numberp n)
